@@ -1,0 +1,75 @@
+.team-section {
+    position: relative;
+}
+.team-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 80px;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.team-item{
+    position: relative;
+    padding: 40px 35px 0px 35px;
+    max-width: 387px;
+    max-height: 331px;
+    border: 1px solid black;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 45px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.team-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.team-item.hide {
+    opacity: 0;
+    transform: translateY(20px);
+}
+.team-upper-section{
+    display: flex;
+    width: max-content;
+}
+
+.team-name {
+    position: relative;
+    top: 54px;
+    margin-left: 20px;
+}
+
+.team-title {
+    font-size: 20px;
+}
+
+.team-subtitle{
+    margin-top: 0px;
+}
+
+.team-logotype{
+    position: absolute;
+    top: 40px;
+    right: 35px;
+}
+.team-description{
+    padding-top: 28px;
+    padding-bottom: 63px;
+    border-top: 1px solid black;
+}
+
+.team-button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    width: 269px;
+    height: 68px;
+    position: absolute;
+    bottom: -108px;
+    right: 0;
+    border-radius: 14px;
+}

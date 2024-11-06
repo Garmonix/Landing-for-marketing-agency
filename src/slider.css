@@ -1,0 +1,89 @@
+    .slider {
+        position: relative;
+        margin-top: 80px;
+        height: 625px;
+        background-color: #191A23;
+        border-radius: 45px;
+    }
+
+    .slider-items {
+        display: block;
+        box-sizing: border-box;
+        margin-top:84px;  
+        background-repeat: no-repeat;
+        max-width: 606px;
+    }
+
+    .slider-item{
+        max-width: 606px;
+    }
+
+    .swiper-slide .swiper-slide-active{
+        max-width: 606px;
+    }
+    .item-text {
+        font-size: 18px;
+        padding:48px 59px 80px 50px;
+        width: 500px;
+        background-image: url('./images/bubble.svg');
+        background-repeat: no-repeat;
+    }
+
+    .item-titles{
+        margin: 20px 0 0 80px;
+    }
+
+    .item-title{
+        color: #B9FF66;
+    }
+
+    .arrow-prev, .arrow-next {
+        cursor: pointer;
+        border: none;
+        background-color: #191A23;  
+        z-index: 10; /* Убедись, что стрелки выше остальных элементов */
+    }
+
+    .arrow-prev {
+        top: 543px;
+        position: absolute;
+        left: 345px;
+    }
+
+    .arrow-next {
+        position: absolute;
+        right: 345px;
+        top: 543px;
+    }
+
+    .item-image {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .item-info {
+        color: white;
+    }
+
+    .swiper-pagination {
+        gap: 20px;
+        margin-top: 144px;
+        position: relative;
+    }
+    
+    .swiper-pagination-bullet {
+        object-fit: contain;
+        width: 14px;
+        height: 14px;
+        border-radius: 0; /* Сделаем их квадратами */
+        opacity: 1; /* Полная непрозрачность */
+        background-image: url('./images/bullet.svg'); 
+    }
+    
+    .swiper-pagination-bullet-active {
+        border: #000;
+        color: #000;
+        background: none;
+        background-image: url('./images/bulletactive.svg');
+    }
+    

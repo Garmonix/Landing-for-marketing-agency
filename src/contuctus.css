@@ -1,0 +1,101 @@
+.contuctus-subtitle {
+    width: 400px;
+}
+
+.contuctus-form{
+    position: relative;
+    margin-top: 80px;
+    box-sizing: border-box;
+    display: flex;
+    height: 773px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+}
+
+.contact-options {
+    position: absolute;
+    margin: 60px 0 0 100px;
+    display: flex;
+    gap: 35px;
+}
+
+.checkbox-container {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.checkbox-input {
+    display: none; /* Скрываем стандартный чекбокс */
+}
+
+.checkbox-custom {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #000; /* Внешний круг, который всегда виден */
+    margin-right: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Внутренний зелёный круг для состояния checked */
+.checkbox-input:checked + .checkbox-custom::after {
+    content: "";
+    width: 16px; /* Размер внутреннего зелёного круга */
+    height: 16px;
+    border-radius: 50%;
+    background-color: #B9FF66; /* Цвет зелёного круга */
+    position: absolute;
+}
+
+.form-group-name{   
+    position: absolute;
+    margin: 128px 0 0 100px;
+}
+
+    .input{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    height: 59px;
+    width: 556px;
+    border-radius: 14px;    
+    padding-left: 15px;
+}
+
+.text-input{
+    padding-top: 18px;
+    height: 190px;
+}
+
+.form-group-email{
+    position: relative;
+    margin: 245px 0 0 100px;
+}
+
+.form-group-message{
+    position: absolute;
+    margin: 362px 0 0 100px;
+}
+
+.send-message-btn{
+    background-color: black;
+    color: #FFF;
+    font-size: 20px;
+    height: 68px;
+    border-radius: 14px;
+    width: 573px;   
+    position: absolute;
+    margin:625px 0 0 100px;
+}
+
+.contact-image{
+    margin-top: 62px;
+    position: absolute;
+    right: -325px;  
+}

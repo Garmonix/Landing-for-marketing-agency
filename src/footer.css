@@ -1,0 +1,130 @@
+footer {
+    position: relative;
+    margin-top: 140px;
+    background-color: #191A23;
+    border-radius: 60px 60px 0% 0%;
+    padding: 55px 60px 50px 60px;
+} 
+
+.logo-footer {
+    margin-top: auto;
+    display: flex;
+    margin: 0px;
+}
+
+.nav-section {
+    display: flex;
+}
+
+.nav-footer{
+    margin-left: 77px;
+    display: flex;
+}
+
+.nav-footer li{
+    margin-right: 40px;
+    list-style-type: none;
+}
+.nav-footer a{
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.social{
+    margin-top: auto;
+    position: absolute;
+    right: 60px;
+}
+
+.social img {
+    margin-left: 20px;
+}
+
+.footer-conatctus {
+    display: flex;
+    margin-top: 66px;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 50px;
+}
+
+.footer-text {
+    color: #FFF;
+}
+
+.footer-contact {
+    font-size: 20px;
+    background-color: #B9FF66;
+    color: #000;
+    width: max-content;
+    border-radius: 7px;
+    padding: 0 7px;
+    margin-bottom: 27px;
+}
+
+.footer-paragraph {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-send {
+    display: flex;
+    position: absolute;
+    width: 634px;
+    height: 184px;
+    background-color: #292A32;
+    border-radius: 14px;
+    right: 61px;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-email {
+    box-sizing: border-box;
+    margin-right: 20px;
+    height: 67px;
+    width: 285px;
+    border-radius: 14px;
+    background: none;
+    padding: 22px 0 22px 35px;
+    border: 1px #FFF solid;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.footer-subscribe{
+    box-sizing: border-box;
+    height: 67px;
+    width: 249px;
+    border-radius: 14px;
+    border: none;
+    background: #B9FF66;
+    color: #000;
+    font-size: 18px;
+}
+
+.footer-policy {
+    font-size: 18px;
+    display: flex;
+    color: #FFF;
+    margin-top: 50px;
+    padding: 0  ;
+}
+
+.footer-policy p{
+    font-size: 18px;
+    margin: 0;
+}
+
+.footer-policy a{
+    font-size: 18px;
+    text-decoration: underline  ;
+    color: #FFF;
+    margin-left: 40px;
+}
